@@ -1,0 +1,42 @@
+namespace FirstProject
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("CALCULATOR PROJECT");
+
+            Console.Write("Enter a Number");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter a Another Number");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(num1 * num2); 
+
+
+
+            
+            Console.WriteLine("MAD LIBS PROJECT");
+
+            string color, pluralNoun, adjetive, celebrity;
+
+            Console.Write("Enter a Color");
+            color = Console.ReadLine();
+            Console.Write("Enter a Plural Noun");
+            pluralNoun = Console.ReadLine();
+            Console.Write("Enter an Adjetive");
+            adjetive = Console.ReadLine();
+            Console.Write("Enter a Celebrity Name");
+            celebrity = Console.ReadLine();
+
+            Console.WriteLine("Roses are" + color);
+            Console.WriteLine( pluralNoun + "are Blue");
+            Console.WriteLine(adjetive + "is sweet");
+            Console.WriteLine("and so are" + celebrity); 
+
+           
+
+
+        }
+    }
+}
